@@ -1,0 +1,11 @@
+framework module TcrLib {
+  umbrella header "TcrLib.h"
+  export *
+
+  module * { export * }
+}
+
+module TcrLib.Swift {
+  header "TcrLib-Swift.h"
+  requires objc
+}

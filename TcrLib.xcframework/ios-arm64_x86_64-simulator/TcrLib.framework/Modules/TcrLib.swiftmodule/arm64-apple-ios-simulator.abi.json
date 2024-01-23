@@ -1,0 +1,90 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TcrLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Common",
+        "printedName": "Common",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6TcrLib6CommonV4nameSSvpZ",
+            "mangledName": "$s6TcrLib6CommonV4nameSSvpZ",
+            "moduleName": "TcrLib",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6TcrLib6CommonV4nameSSvgZ",
+                "mangledName": "$s6TcrLib6CommonV4nameSSvgZ",
+                "moduleName": "TcrLib",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6TcrLib6CommonV",
+        "mangledName": "$s6TcrLib6CommonV",
+        "moduleName": "TcrLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/Documents\/Test\/BuidFrameworkPratising\/TcrLib\/TcrLib\/Common.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 22,
+      "value": "\"TcrLib Common AAA...\""
+    }
+  ]
+}
