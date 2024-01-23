@@ -15,6 +15,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "TcrLib"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Common",
         "printedName": "Common",
@@ -65,6 +72,27 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "testAlamofire",
+            "printedName": "testAlamofire()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6TcrLib6CommonV13testAlamofireyyFZ",
+            "mangledName": "$s6TcrLib6CommonV13testAlamofireyyFZ",
+            "moduleName": "TcrLib",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -82,9 +110,16 @@
     {
       "filePath": "\/Users\/admin\/Documents\/Test\/BuidFrameworkPratising\/TcrLib\/TcrLib\/Common.swift",
       "kind": "StringLiteral",
-      "offset": 157,
+      "offset": 174,
       "length": 22,
       "value": "\"TcrLib Common AAA...\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/Test\/BuidFrameworkPratising\/TcrLib\/TcrLib\/Common.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 42,
+      "value": "\"https:\/\/api.github.com\/users\/hadley\/orgs\""
     }
   ]
 }
